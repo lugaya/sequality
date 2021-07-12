@@ -25,8 +25,6 @@ public class CalculateTesr {
     Calculate calculate = new Calculate();
     int[] expected = { 30, 25 };
     assertArrayEquals(expected, calculate.sum_odd_even(1, 10));
-    int[] expected_2 = { 30, 35 };
-    assertArrayEquals(expected_2, calculate.sum_odd_even(2, 11));
   }
 
   @Test
